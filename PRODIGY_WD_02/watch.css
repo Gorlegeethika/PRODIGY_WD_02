@@ -1,0 +1,78 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #9bf6ff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 80px;
+
+}
+
+.container{
+    height: 500px;
+    width: 50%;
+    border-radius: 10px; /* Add some border radius for rounded corners */
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.container h1, .container p, .container button {
+    margin: 20px;
+}
+
+.box {
+    height: 120px;
+    width: 80%;
+    border: 2px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin:20px;
+    margin-left:50px;
+}
+
+button {
+    padding: 10px;
+    font-weight: 900;
+    font-size: large;
+    color: white;
+    cursor: pointer;
+    margin: 0 10px;
+}
+
+#pause-btn {
+    background-color: blueviolet;
+}
+
+#start-btn {
+    background-color: green;
+}
+
+#stop-btn {
+    background-color: crimson;
+}
+
+#lap-btn {
+    background-color: darkorange;
+}
+.laps h2 {
+    margin-bottom: 10px;
+}
+
+#laps-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+#laps-list li {
+    padding: 5px;
+    border-bottom: 1px solid #ccc;
+}
